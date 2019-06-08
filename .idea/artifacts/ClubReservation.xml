@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ClubReservation">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClubReservation</output-path>
+    <root id="archive" name="ClubReservation.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ClubReservation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+          <element id="library" level="project" name="spring-beans-5.0.8.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ClubReservation/web/Web" />
+    </root>
+  </artifact>
+</component>
